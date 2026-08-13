@@ -139,13 +139,13 @@ CARD_DATA.map((item, index) => {
               <div data-aos="fade-up"
             data-aos-anchor-placement="top-bottom"
             data-aos-duration="800"
-            data-aos-delay="${index * 200}"
+            data-aos-delay="${index * 100}"
             class="border border-[#CCCCCC] lg:pt-[35px] lg:pr-[37px] lg:pb-[30px] lg:pl-[43px] p-7 rounded-[30px] group hover:shadow-[0px_8px_35px_0px_#0000001A] hover:border-transparent  flex-nowrap transition-all duration-500">
 
               <img class="image w-full rounded-[20px] group-hover:rounded-none " src=" ${item.Image}">
 
 
-              <div class=" heading font-semibold text-2xl mt-[21px] leading-[150%]">
+              <div class=" heading font-semibold text-2xl mt-[21px] leading-[150%] animate__animated  animate__fadeInDown">
               ${item.heading}</div>
               
               <div>
